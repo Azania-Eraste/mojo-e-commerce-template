@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mojo</title><link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-nav">
+            <div class="header-nav-elt-left" id="before">
+                <div class="Nav">
+                    <h1>mojo</h1>
+                    <nav>
+                        <ul>
+                            <li id="A">Article</li>
+                            <li class="selected-page">Shop</li>
+                            <li>Magasin</li>
+                            <li>Help</li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="account">
+                    <ul>
+                        <li>John Dee</li>
+                        <li>Cart <span id="cart-counter">(1)</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header-nav-elt-right">
+                <div class="Nav">
+                    <ul>
+                        <li class="selected-gender">Men</li>
+                        <li>Women</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="header-nav" id="after">
+            <div class="filter">
+                <div class="Nav">
+                    <ul>
+                        <li>POPULAR</li>
+                        <li>MOST VIEW</li>
+                        <li>NEWEST</li>
+                        <li>RANDOM</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="search">
+                <i class="bi bi-search"></i>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="double-section" id="first">
+            <div class="left mbm-m">
+                <img src="images/nike-roshe-ld-1000-qs-obsidian-white-802022-401-back_1080x.webp" alt="">
+                <div class="row">
+                    <img src="images/nike-roshe-ld-1000-qs-obsidian-802022-401.jpg" alt="">
+                    <img src="images/nike-roshe-ld-1000-qs-obsidian-white-802022-401-back_1080x.webp" alt="">
+                    <img src="images/nike-roshe-ld-1000-qs-obsidian-802022-401.jpg" alt="">
+                </div>
+            </div>
+            <div class="right">
+                <h1>Nike Roshe LD 1000</h1>
+                <p>Collaboration with fragement</p>
+                <span>
+                    <i class="bi bi-star-fill star"></i>
+                    <i class="bi bi-star-fill star"></i>
+                    <i class="bi bi-star-fill star"></i>
+                    <i class="bi bi-star-fill star"></i>
+                    <i class="bi bi-star star"></i> 
+                    <span id="reaction">(174)</span>
+                </span>
+                <span id="price-container"><p class="price" id="price-article">$120</p> <span>Style# :19283</span></span>
+                <div class="row article-box-choice">
+                    <select name="Size" id="Size">
+                        <option value="" disabled selected hidden>SIZE</option>
+                        <option value="44">44</option>
+                        <option value="43">43</option>
+                        <option value="42">42</option>
+                        <option value="41">41</option>
+                    </select>
+                    <select name="Quantity" id="Quantity">
+                        <option value="1" disabled selected hidden>QTY(1)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                    <button class="btn-cart">ADD TO CART</button>
+                </div>
+                <p>free shipping on orders over $75</p>
+            </div>
+        </div>
+        <div class="center" id="collab">
+            <h3>Hiro F</h3>
+            <h2 class="center">HIROSHI FUJIWARA'S Fragment Collaboration With Nike</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ipsa minima quidem debitis repellendus nobis corrupti dolorum voluptatem, sapiente perspiciatis id, repellat explicabo illo suscipit quod cum illum dicta assumenda. Praesentium eum, aperiam veniam rerum aut tempora quas, facere laudantium nulla veritatis commodi? Exercitationem aspernatur voluptatibus, sint possimus rerum aliquid.</p>
+        </div>
+        <div class="double-section" id="presentation">
+            <div class="left">
+                <img src="images/WhatsApp Image 2024-12-04 à 09.32.25_efb211b9.jpg" alt="">
+            </div>
+            <div class="right center">
+                <h3> Hiroshi Fujiwara's x Nike</h3>
+                <p>Following initial images released last week, we bring you Hiroshi Fujiwara's collaboration with Nike</p>
+                <div class="center">
+                    <button id="btn-watch">WATCH THE VIDEO</button>
+                </div>
+            </div>
+        </div>
+        <div class="center w-90">
+            <div class="triple-section">
+                <div id="left-direction" class="arrow"></div>
+                <div class="center">
+                    <h2>Other Great Shoes</h2>
+                    <p>each shoes is based off of a similar aesthetic  as well as being tailoned to your general taste</p>
+                    <div class="row">
+                        <div class="card">
+                            <img src="images/nike_roshe_gold.jpg" alt="">
+                            <h2>Nike Roshe Gold</h2>
+                            <p>24 left in stock</p>
+                            <span class="price price-article-card" >$ 124</span>
+                        </div>
+                        <div class="card">
+                            <img src="images/nike_roshe_gold.jpg" alt="">
+                            <h2>Nike Roshe Gold</h2>
+                            <p>24 left in stock</p>
+                            <span class="price price-article-card" >$ 124</span>
+                        </div>
+                        <div class="card">
+                            <img src="images/nike_roshe_gold.jpg" alt="">
+                            <h2>Nike Roshe Gold</h2>
+                            <p>24 left in stock</p>
+                            <span class="price price-article-card" >$ 124</span>
+                        </div>
+                        <div class="card">
+                            <img src="images/nike_roshe_gold.jpg" alt="">
+                            <h2>Nike Roshe Gold</h2>
+                            <p>24 left in stock</p>
+                            <span class="price price-article-card" >$ 124</span>
+                        </div>
+                        <div class="card">
+                            <img src="images/nike_roshe_gold.jpg" alt="">
+                            <h2>Nike Roshe Gold</h2>
+                            <p>24 left in stock</p>
+                            <span class="price price-article-card" >$ 124</span>
+                        </div>
+                        <div class="card">
+                            <img src="images/nike_roshe_gold.jpg" alt="">
+                            <h2>Nike Roshe Gold</h2>
+                            <p>24 left in stock</p>
+                            <span class="price price-article-card" >$ 124</span>
+                        </div>
+                        <div class="card">
+                            <img src="images/nike_roshe_gold.jpg" alt="">
+                            <h2>Nike Roshe Gold</h2>
+                            <p>24 left in stock</p>
+                            <span class="price price-article-card" >$ 124</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="right-direction" class="arrow"></div>
+            </div>
+            <p>Want to change your preference</p>
+        </div>
+    </main>
+    <footer>
+        <p>COPYRIGHT & ALL RIGHT RESERVED 2018</p>
+        <div class="social">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-pinterest"></i>
+            <i class="bi bi-instagram"></i>
+        </div>
+        <p>HELP/CUSTOMER SERVICE</p>
+    </footer>
+</body>
+</html>
